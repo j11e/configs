@@ -8,7 +8,7 @@ export ZSH=/home/jd/.oh-my-zsh
 ZSH_THEME="pygmalion"
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+ CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
@@ -40,7 +40,7 @@ ZSH_THEME="pygmalion"
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
+# HIST_STAMPS="dd.mm.yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -53,7 +53,7 @@ plugins=(git colored-man virtualenv)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -82,5 +82,20 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias wow="git status"
+alias poule="git pull --rebase"
+alias meurs="clear"
+alias chrome='nohup google-chrome >/dev/null 2>&1 &'
+alias proj='cd /usr/local/zend/var/apps/http/'
+alias gajim='nohup gajim >/dev/null 2>&1 &'
+alias vivaldi='nohup vivaldi-preview >/dev/null &'
+
+# killage de touches reloues
+#xmodmap -e "keycode 112 = 0x0000" # PageUp
+#xmodmap -e "keycode 117 = 0x0000" # PageDown
+
+#chrome() {
+#  nohup google-chrome $1 >/dev/null 2>&1
+#}
 
 DISABLE_AUTO_TITLE=true

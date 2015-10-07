@@ -1,25 +1,40 @@
 set nocompatible
-set nu
 
 syntax on
 
+set bg=dark
 colorscheme default
-" Use spaces instead of tabs
+
+scriptencoding utf-8
+
+set history=9000
+
+set showmode
+
+set nu
+
 set expandtab
-
-" Be smart when using tabs ;)
-set smarttab
-
-" 1 tab == 4 spaces
-set shiftwidth=4
 set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+set smarttab
+"set nowrap
+
+" jk exits insert mode 
+inoremap jk <Esc>
+
+execute pathogen#infect()
+execute pathogen#helptags()
+
+filetype plugin indent on
+
+let mapleader="\<Space>"
 
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
-
+ 
 " Ignore case when searching
 set ignorecase
-
-" When searching try to be smart about cases 
 set smartcase
