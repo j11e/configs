@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/jd/.oh-my-zsh
+export ZSH=/root/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -99,3 +99,9 @@ alias vivaldi='nohup vivaldi-preview >/dev/null &'
 #}
 
 DISABLE_AUTO_TITLE=true
+
+export WORKON_HOME="~/Envs"
+source /usr/local/bin/virtualenvwrapper.sh
+
+export WECHALLUSER="LazyJaydee"
+export WECHALLTOKEN="7FAF5-1CB76-F5AC8-C6E46-58673-9410F"
