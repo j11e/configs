@@ -24,8 +24,8 @@ set smarttab
 " jk exits insert mode 
 inoremap jk <Esc>
 
-execute pathogen#infect()
-execute pathogen#helptags()
+"execute pathogen#infect()
+"execute pathogen#helptags()
 
 filetype plugin indent on
 

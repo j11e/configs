@@ -1,0 +1,23 @@
+#
+# moi
+#
+
+Host nestor
+    Hostname 149.202.49.149
+    User jd
+    Port 22666
+
+
+#
+# overthewire
+#
+Host bandit
+    Hostname bandit.labs.overthewire.org
+
+Host leviathan
+    Hostname leviathan.labs.overthewire.org
+
+Host *.labs.overthewire.org
+    SendEnv WECHALLUSER
+    SendEnv WECHALLTOKEN
+
