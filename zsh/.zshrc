@@ -91,6 +91,8 @@ alias gajim='nohup gajim >/dev/null 2>&1 &'
 alias vivaldi='nohup vivaldi-preview >/dev/null &'
 
 # killage de touches reloues
+# pageUp/pageDown are next to the regular arrows on my work laptop
+# which quickly becomes frustrating when I hit them by accident
 #xmodmap -e "keycode 112 = 0x0000" # PageUp
 #xmodmap -e "keycode 117 = 0x0000" # PageDown
 
@@ -103,5 +105,5 @@ DISABLE_AUTO_TITLE=true
 export WORKON_HOME="~/Envs"
 source /usr/local/bin/virtualenvwrapper.sh
 
-export WECHALLUSER="LazyJaydee"
-export WECHALLTOKEN="7FAF5-1CB76-F5AC8-C6E46-58673-9410F"
+export WECHALLUSER="xxx"
+export WECHALLTOKEN="xxx"
