@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/root/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -96,14 +96,11 @@ alias vivaldi='nohup vivaldi-preview >/dev/null &'
 #xmodmap -e "keycode 112 = 0x0000" # PageUp
 #xmodmap -e "keycode 117 = 0x0000" # PageDown
 
-#chrome() {
-#  nohup google-chrome $1 >/dev/null 2>&1
-#}
-
 DISABLE_AUTO_TITLE=true
 
-export WORKON_HOME="~/Envs"
-source /usr/local/bin/virtualenvwrapper.sh
+# I don't really use virtualenv these days
+# export WORKON_HOME="~/Envs"
+# source /usr/local/bin/virtualenvwrapper.sh
 
 export WECHALLUSER="xxx"
 export WECHALLTOKEN="xxx"

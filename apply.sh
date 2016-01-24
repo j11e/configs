@@ -1,17 +1,17 @@
-#!/bin/sh
+#!/bin/zsh
 
 echo "copying config files and dotfiles..."
 
-curdir=$(pwd)
+curdir=${0:A:h}
 
-echo "applying config files from $curdir"
+echo "applying config files from $curdir to homedir."
 
-ln -s $(echo $curdir)/vim/.vimrc ~/.vimrc
-ln -s $(echo $curdir)/tmux/.tmux.conf ~/.tmux.conf
-ln -s $(echo $curdir)/zsh/.zshrc ~/.zshrc
-ln -s $(echo $curdir)/ssh/config ~/.ssh/config
-ln -s $(echo $curdir)/Database.kdbx ~/Database.kdbx
+ln -s $curdir/vim/.vimrc ~/.vimrc
+ln -s $curdir/tmux/.tmux.conf ~/.tmux.conf
+ln -s $curdir/zsh/.zshrc ~/.zshrc
+ln -s $curdir/ssh/config ~/.ssh/config
+ln -s $curdir/Database.kdbx ~/Database.kdbx
 
-echo "done. Don't forget to correct path/homedir info."
+echo "Done."
 
 

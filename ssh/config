@@ -7,6 +7,10 @@ Host nestor
     User jd
     Port 22666
 
+Host github
+    User git
+    Hostname github.com
+    IdentityFile ~/.ssh/github.pub
 
 #
 # overthewire
