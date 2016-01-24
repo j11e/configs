@@ -14,4 +14,3 @@ ln -s $curdir/Database.kdbx ~/Database.kdbx
 
 echo "Done."
 
-
