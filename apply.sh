@@ -12,5 +12,8 @@ ln -s $curdir/zsh/.zshrc ~/.zshrc
 ln -s $curdir/ssh/config ~/.ssh/config
 ln -s $curdir/Database.kdbx ~/Database.kdbx
 
+rm ~/Documents/syncFromGithub.sh
+cp $curdir/git/syncFromGithub.sh ~/Documents/syncFromGithub.sh
+
 echo "Done."
 

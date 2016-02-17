@@ -22,4 +22,4 @@ do
     cd ..
 done
 
-sendmail jd@j11e.net < $LOGFILE
+/usr/sbin/sendmail jd@j11e.net < $LOGFILE
