@@ -86,6 +86,7 @@ alias wow="git status"
 alias poule="git pull --rebase"
 alias meurs="clear"
 alias chrome='nohup google-chrome >/dev/null 2>&1 &'
+alias thunderbird='nohup thunderbird >/dev/null 2>&1 &'
 alias proj='cd /usr/local/zend/var/apps/http/'
 alias gajim='nohup gajim >/dev/null 2>&1 &'
 alias vivaldi='nohup vivaldi-preview >/dev/null &'
