@@ -2,7 +2,6 @@ set nocompatible
 
 syntax on
 
-set bg=dark
 colorscheme default
 
 scriptencoding utf-8
@@ -38,3 +37,6 @@ set wrap "Wrap lines
 " Ignore case when searching
 set ignorecase
 set smartcase
+
+
+set bg=dark
