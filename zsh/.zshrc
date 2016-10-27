@@ -90,6 +90,7 @@ alias thunderbird='nohup thunderbird >/dev/null 2>&1 &'
 alias proj='cd /usr/local/zend/var/apps/http/'
 alias gajim='nohup gajim >/dev/null 2>&1 &'
 alias vivaldi='nohup vivaldi-preview >/dev/null &'
+alias skype='nohup skype > /dev/null 2>&1 &'
 
 # killage de touches reloues
 # pageUp/pageDown are next to the regular arrows on my work laptop
