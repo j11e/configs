@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/jd'
+let g:netrw_dirhist_2='/home/jd/.vim'
+let g:netrw_dirhist_3='/home/jd/.config/sublime-text-3/Backup'
+let g:netrw_dirhist_4='/home/jd/configs'
+let g:netrw_dirhist_5='/home/jd/Documents/projects/Libraries/Datasource/src/System/Api/Fox/Fic'
+let g:netrw_dirhist_6='/home/jd/.oh-my-zsh'
+let g:netrw_dirhist_7='/home/jd/merdouilles/NIM_LOL/stuff'
+let g:netrw_dirhist_8='/home/jd/.vim/bundle'
