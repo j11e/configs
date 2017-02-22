@@ -24,6 +24,10 @@ if &term =~ "^screen"
 endif
 set title
 
+" toggling paste mode disables autoindent so that I can paste
+" big chunks with indentation and not break everything
+set pastetoggle=<F3>
+
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
