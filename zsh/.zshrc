@@ -101,5 +101,7 @@ DISABLE_AUTO_TITLE=true
 # export WORKON_HOME="~/Envs"
 # source /usr/local/bin/virtualenvwrapper.sh
 
-export WECHALLUSER="xxx"
-export WECHALLTOKEN="xxx"
+# docker compose autocomplete
+fpath=(~/.zsh/completion $fpath)
+autoload -Uz compinit && compinit -i
+
