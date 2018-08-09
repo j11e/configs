@@ -1,0 +1,59 @@
+{
+	"added_words":
+	[
+		"repo",
+		"Doxygen",
+		"api"
+	],
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.phar"
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"file_exclude_patterns":
+	[
+		"*.jpeg",
+		"*.pdf",
+		"*.jpg",
+		"*.png",
+		"*.fls",
+		"*.fdb_latexmk",
+		"*.aux",
+		"*.toc",
+		"*.out",
+		".settings/*",
+		".project",
+		".tern-project",
+		".buildpath"
+	],
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"LaTeX",
+		"MarkdownHighlighting",
+		"Vintage",
+		"Xdebug Client"
+	],
+	"new_window_settings":
+	{
+		"menu_visible": false
+	},
+	"rulers":
+	[
+		80,
+		120
+	]
+}
