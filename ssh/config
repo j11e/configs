@@ -5,12 +5,12 @@
 Host nestor
     Hostname 149.202.49.149
     User jd
-    Port 22666
+    Port 22667
 
 Host github
     User git
     Hostname github.com
-    IdentityFile ~/.ssh/github.pub
+    IdentityFile ~/.ssh/id_rsa
 
 #
 # overthewire
