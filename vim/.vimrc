@@ -124,8 +124,8 @@ call pathogen#infect()
 let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 set omnifunc=syntaxcomplete#Complete
 autocmd FileType *
-    " \ call SuperTabChain(&omnifunc, "<c-p>") |
-    " \ call SuperTabSetDefaultCompletionType("<c-x><c-u>")
+     \ call SuperTabChain(&omnifunc, "<c-p>") |
+     \ call SuperTabSetDefaultCompletionType("<c-x><c-u>")
 
 " Syntastic
 " Don't bother flaking on :wq because I won't even see it!
