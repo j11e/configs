@@ -6,6 +6,7 @@ Host nestor
     Hostname 149.202.49.149
     User jd
     Port 22667
+    IdentityFile ~/.ssh/id_rsa
 
 Host github
     User git
